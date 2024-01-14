@@ -51,4 +51,4 @@ it("can mark todo as complete", () => {
     fireEvent.click(list.getByText("Mark as complete"));
 
     expect(list.queryByText("write tests")).not.toHaveStyle("textDecoration: line-through");
-})
+});
